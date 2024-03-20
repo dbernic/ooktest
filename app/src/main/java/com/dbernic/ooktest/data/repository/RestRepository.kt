@@ -2,8 +2,6 @@ package com.dbernic.ooktest.data.repository
 
 import com.dbernic.ooktest.data.model.MainResponse
 import com.dbernic.ooktest.data.rest.RestApi
-import com.google.gson.JsonArray
-import com.google.gson.JsonElement
 
 class RestRepository(private val api: RestApi) {
     companion object {
